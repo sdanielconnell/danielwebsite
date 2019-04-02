@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'lackregular';
+    src: url('lack-regular-webfont.eot');
+    src: url('lack-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lack-regular-webfont.woff2') format('woff2'),
+         url('lack-regular-webfont.woff') format('woff'),
+         url('lack-regular-webfont.ttf') format('truetype'),
+         url('lack-regular-webfont.svg#lackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 26.71pt;
+   font-family: 'lackregular';
+    color: #1300D6;
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+    flex-direction: row;
+    list-style: none;
+
+    top: 0px;
+    z-index: 0px;
+}
+li{
+    align-self: center;
+    list-style-type: none;
+    font-style: sans-serif;
+}
+body{
+    background-color: #1300D6;
+}
+
+#HOME {
+    margin-top: 500px;
+    width: 100%;
+    background-color: #1300D6;
+}
+#yeh{
+    width: 100%;
+    background-color: #1300D6;
+}
+#haha {
+    display: flex;
+    justify-content: center;
+
+    background-color:#1300D6;
+    margin-top: 33px;
+
+}
+#logo {
+    width: 200px;
+    height: 200px;
+    margin-top:50px;
+    display:flex
+}
+#video {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

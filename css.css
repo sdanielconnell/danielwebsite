@@ -120,5 +120,8 @@ body{
 }
 #about {
     font-family: 'lackregular';
-    font-size: 46pt
+    font-size: 46pt;
+    display: flex;
+    justify-content: center;
+    color: white;
 }

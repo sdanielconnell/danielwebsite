@@ -86,7 +86,7 @@ body{
     justify-content: center;
     animation-delay: 0s;
     animation-direction: normal;
-    animation-duration: 1.2s;
+    animation-duration: .5s;
     animation-timing-function: ease-in;
     animation-name: fadeIn;
 
@@ -102,7 +102,7 @@ body{
     display:flex;
     justify-content: center;
     animation-direction: normal;
-    animation-duration: 1.2s;
+    animation-duration: .5s;
     animation-timing-function: ease-in;
     animation-name: fadeIn;
 
@@ -125,8 +125,18 @@ body{
     justify-content: center;
     color: white;
 }
-#googoogaga {
-    width: 801px;
-    height: 247;
-    font-style: 'lackregular'
+#heythere {
+    display: flex;
+    justify-content: center;
+    font-family: 'lackregular';
+    color: white;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+#contacttext {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'lackregular';
+    font-size: 50px
 }

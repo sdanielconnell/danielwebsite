@@ -51,6 +51,7 @@ ul{
     list-style: none;
     top: 0px;
     z-index: 0px;
+    text-decoration: none;
 }
 li{
     align-self: center;
@@ -138,5 +139,23 @@ body{
     justify-content: center;
     margin-top: 20px;
     font-family: 'lackregular';
-    font-size: 50px
+    font-size: 50px;
+    color:white;
+
+}
+#coollittlecontactbox {
+     display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'lackregular';
+    font-size: 20px;
+    color:white;
+}
+
+/*start of media query small screen*/
+@media only screen and (max-width:600px){
+    ul{
+        font-size: 20px;
+    }
+    }
 }

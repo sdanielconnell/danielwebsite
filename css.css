@@ -28,8 +28,11 @@
   to {
     transform: translateX(100px);
   }
-}
+    @media only screen  {
 
+    }
+}
+/*homepage*/
 body {
     margin: 0px;
     width: 100%;
@@ -52,6 +55,10 @@ ul{
     top: 0px;
     z-index: 0px;
     text-decoration: none;
+}
+a {
+    text-decoration: none;
+      color: #1300D6;
 }
 li{
     align-self: center;
@@ -98,6 +105,7 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+/*portfolio*/
 #artworkone {
     margin-top:50px;
     display:flex;
@@ -118,6 +126,7 @@ body{
 #ahhhhhhhh{
     font-family: 'lackregular';7
 }
+/*about*/
 #about {
     font-family: 'lackregular';
     font-size: 46pt;
@@ -133,6 +142,7 @@ body{
     margin-left: 190px;
     margin-right: 190px;
 }
+/*contact*/
 #contacttext {
     display:flex;
     justify-content: center;
@@ -150,11 +160,30 @@ body{
     font-size: 20px;
     color:white;
 }
-
+#newdudenewblock {
+ display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'lackregular';
+    font-size: 30px;
+    color:white;
+}
+a2 {
+color: white;
+text-decoration: none
+}
 /*start of media query small screen*/
 @media only screen and (max-width:600px){
     ul{
-        font-size: 20px;
+        font-size: 30px;
     }
+    #logo {
+        width:150px;
+        height:150px
     }
-}
+    #video {
+        display:flex;
+        flex-direction: column
+        width:200px;
+        height:200px;
+    }

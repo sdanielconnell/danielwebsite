@@ -92,6 +92,7 @@ body{
     margin-top:50px;
     display:flex;
     justify-content: center;
+    align-content: center
     animation-delay: 0s;
     animation-direction: normal;
     animation-duration: .5s;
@@ -115,8 +116,6 @@ body{
     animation-duration: .5s;
     animation-timing-function: ease-in;
     animation-name: fadeIn;
-    width: 500px;
-    height: 500px;
     align-content: center
 
 }
@@ -175,7 +174,7 @@ body{
     justify-content: center;
     margin-top: 20px;
     font-family: 'lackregular';
-    font-size: 30px;
+    font-size: 40px;
     color:white;
     text-align: center
 }
@@ -207,20 +206,8 @@ text-decoration: none
         margin-top: 40px
 
     }
-    #artworkone{
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 20px;
-        height: 20px;
-        margin-bottom:20px;
-        margin-top: 20px;
 
-    }
-    #artworktwo {
-        width: 20px;
-        height: 20px;
-        margin-bottom:20px;
-        margin-top: 20px
+
     }
     #newdudenewblock {
  display:flex;

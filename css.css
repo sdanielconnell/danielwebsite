@@ -92,7 +92,7 @@ body{
     margin-top:50px;
     display:flex;
     justify-content: center;
-    align-content: center
+    align-content: center;
     animation-delay: 0s;
     animation-direction: normal;
     animation-duration: .5s;
@@ -158,6 +158,11 @@ body{
     font-family: 'lackregular';
     font-size: 50px;
     color:white;
+      animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-name: fadeIn;
 
 }
 #coollittlecontactbox {
@@ -168,28 +173,39 @@ body{
     font-size: 20px;
     color:white;
     text-align: center;
+      animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-name: fadeIn;
 }
 #newdudenewblock {
  display:flex;
     justify-content: center;
     margin-top: 20px;
     font-family: 'lackregular';
-    font-size: 40px;
+    font-size: 20px;
     color:white;
-    text-align: center
+    text-align: center;
+          animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-name: fadeIn;
 }
 a2 {
 color: white;
 text-decoration: none
 }
 /*start of media query small screen*/
-@media only screen and (max-width:375px){
+@media only screen and (max-width:414px){
     ul{
         font-size: 20px;
         flex-direction: column;
         align-content: center
 
 
+    }
     }
     #logo {
         width:200px;
@@ -212,7 +228,7 @@ text-decoration: none
     #newdudenewblock {
  display:flex;
     justify-content: center;
-    margin-top: 20pxx;
+    margin-top: 20px;
     font-family: 'lackregular';
     font-size: 17px;
     color:white;
@@ -231,3 +247,7 @@ text-decoration: none
         margin-left: 5px;
         margin-right:5px;
     }
+#artworktwo{
+    width: 20px;
+    height: 20px;
+}
